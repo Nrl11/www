@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 80px;
+    height: 64px;
+}
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.burger-icon {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+}
+a {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #939393;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 41px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.auth {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.design-button {
+    padding: 20px 20px;
+    background-color: #5b00ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    color: #F9FAFE;
+    height: 634px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-family: 'Space Age';
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+}
+.bt{
+    padding-top: 8px;
+    height: 40px;
+    width: 36px;
+}
+.hero p {
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #939393;
+    text-align: left;
+}
+
+.hero a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.container {
+    padding-inline: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcom {
+    padding-top: 172px;
+}
+.welcom h1{
+    text-align: left;
+}
+.cta-button {
+    position: relative;
+    top: 70px;
+    color: #fff;
+    padding: 20px 38px;
+    border-radius: 5px;
+    width: 208px;
+    height: 55px;
+    background: #735cff;
+}
+
+.dig {
+    top: 324px;
+    right: 0;
+    height: 40%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.section.features {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.feature-item {
+    max-width: 340px;
+    text-align: right;
+    margin: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.feature-center img {
+    max-width: 632px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.individual-style {
+    top: 27%;
+    left: 26%;
+}
+
+.high-quality {
+    top: 78%;
+    left: 25%;
+}
+
+.features-list {
+    top: 56%;
+    left: 72%;
+}
+
+.feature-item h3, .feature-item h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: right;
+    color: #000;
+}
+
+.feature-item p, .feature-item a {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: right;
+    color: #939393;
+}
+
+.design-watch {
+    margin-top: 80px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #735CFF;
+    color: #fff;
+}
+
+.design-watch h2 {
+    font-family: 'Space Age';
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 42px;
+    color: #fff;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.step {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.step p, .step span {
+    font-family: 'Space Age';
+    font-weight: 400;
+    color: #fff;
+}
+
+.step p {
+    font-size: 12px;
+}
+
+.step span {
+    font-size: 32px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.outer-svg {
+    position: relative;
+    display: inline-block;
+}
+
+.inner-svg {
+    position: absolute;
+    top: 13.5px;
+    left: 11.5px;
+}
+
+.span-container {
+    position: relative;
+    display: inline-block;
+    width: 87px;
+    height: 87px;
+}
+
+.span-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+}
+
+.line {
+    border: 1px solid #fff;
+    width: calc(100% / 4);
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.our-mission {
+    background-color: #000;
+    color: #fff;
+}
+
+.mission-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mission-image img {
+    max-width: 498px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mission-text {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.mission-text h2 {
+    font-family: 'Space Age';
+    font-weight: 400;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.mission-text p {
+    margin-top: 40px;
+    font-family: 'Space Age';
+    font-weight: 400;
+    font-size: 14px;
+    color: #dedede;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.watches {
+    background-color: #fff;
+}
+
+.watches h2 {
+    font-family: 'Space Age';
+    font-weight: 400;
+    font-size: 42px;
+    color: #000;
+    text-align: left;
+}
+
+.watches p {
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939393;
+    text-align: left;
+}
+
+.watch-list {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.watch-item {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.watch-item h1 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #939393;
+}
+
+.watch-item a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 26px;
+    color: #000;
+}
+
+.watch-item img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    margin-bottom: 40px;
+}
+
+.navigation span {
+    font-size: 24px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.about-us {
+    background-color: #fff;
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+}
+
+.about-us p {
+    text-align: left;
+    max-width: 400px;
+    font-family: 'Space Age';
+    font-weight: 400;
+    font-size: 14px;
+    color: #939393;
+}
+
+.about-us h2 {
+    font-family: 'Space Age';
+    text-align: left;
+    font-weight: 400;
+    font-size: 42px;
+    color: #000;
+}
+
+.about-video {
+    position: relative;
+    display: inline-block;
+}
+
+.about-video img {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.newsletter {
+    background-image: url("./img/fon.png");
+    color: #fff;
+}
+
+.newsletter h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    margin-top: 10px;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.newsletter label {
+    margin: 10px 0;
+}
+
+footer {
+    margin: 50px;
+    background-color: #ffff;
+    color: #939393;
+    text-align: center;
+}
+
+footer img {
+    max-width: 400px;
+}
+
+footer p {
+    background-color: #F9FAFE;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Space Age';
+    src: url("./fonts/SpaceAge.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Responsive Styles */
+@media (max-width: 1920px) {
+    .header {
+        padding-inline: 60px;
+    }
+
+    .container {
+        padding-inline: 60px;
+    }
+
+    .welcom {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .header__nav, .auth {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .header__nav.active, .auth.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px 0;
+        z-index: 1000;
+    }
+
+    .header__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__list li {
+        margin-bottom: 10px;
+    }
+
+    .auth {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .auth a {
+        margin: 10px 0;
+    }
+    .container {
+        padding-inline: 40px;
+    }
+
+    .welcom {
+        width: 400px;
+    }
+
+    .cta-button {
+        width: auto;
+        padding: 15px 30px;
+    }
+
+    .feature-item {
+        position: relative;
+        transform: none;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .steps .line {
+        display: none;
+    }
+
+    .our-mission {
+        flex-direction: column;
+    }
+
+    .about-us {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-us p,
+    .about-us h2 {
+        text-align: center;
+    }
+
+    .mission-content {
+        flex-direction: column;
+    }
+
+    .mission-text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .header__nav, .auth {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .header__nav.active, .auth.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px 0;
+        z-index: 1000;
+    }
+
+    .header__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__list li {
+        margin-bottom: 10px;
+    }
+
+    .auth {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .auth a {
+        margin: 10px 0;
+    }
+    .header {
+        padding-inline: 20px;
+    }
+
+    .container {
+        padding-inline: 20px;
+    }
+
+    .welcom {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .design-watch {
+        padding: 20px 10px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-item {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .watch-list {
+        flex-direction: column;
+    }
+
+    .watch-item {
+        margin: 40px 0;
+    }
+    .dig{
+        
+        padding: 200px;
+    }
+    .section.features{
+        text-align: center;
+    }
+}
